@@ -13,10 +13,10 @@
 	@apply text-3xl;
 }
 .content h2 {
-	@apply text-2xl mb-1;
+	@apply text-2xl;
 }
 .content h3 {
-	@apply text-xl mb-1;
+	@apply text-xl;
 }
 .content hr {
 	@apply my-4;
