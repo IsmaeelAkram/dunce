@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content p {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+.content ul {
+	list-style: disc;
+}
+
+.content h1 {
+	@apply text-3xl;
+}
+.content h2 {
+	@apply text-2xl mb-1;
+}
+.content h3 {
+	@apply text-xl mb-1;
+}
+.content hr {
+	@apply my-4;
+}
+.content figcaption {
+	@apply text-gray-500 mt-2;
+}
+.content img {
+	@apply rounded-md my-2;
+}

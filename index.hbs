@@ -1,0 +1,13 @@
+{{!< default}}
+
+{{> "header"}}
+
+{{#get "posts"}}
+    {{#foreach posts}}
+    <div class="my-16 mx-2 md:mx-0 md:w-3/5">
+        <h2 class="text-3xl font-bold"><a href={{url}}>{{title}}</a></h2>
+        <time class="text-md text-gray-600">{{date format="MMMM D, YYYY"}}</time>
+        <p class="mt-2">{{excerpt}}</p>
+    </div>
+    {{/foreach}}
+{{/get}}
