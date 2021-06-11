@@ -1,0 +1,20 @@
+{
+	"name": "dunce",
+	"version": "1.0.0",
+	"engines": {
+		"ghost-api": "v3"
+	},
+	"config": {
+		"posts_per_page": 10,
+		"image_sizes": {}
+	},
+	"description": "Not the brightest theme in the world.",
+	"repository": "https://github.com/ismaeelakram/dunce",
+	"author": "Ismaeel Akram",
+	"license": "MIT",
+	"dependencies": {
+		"autoprefixer": "^10.2.6",
+		"postcss": "^8.3.2",
+		"tailwindcss": "^2.1.4"
+	}
+}
