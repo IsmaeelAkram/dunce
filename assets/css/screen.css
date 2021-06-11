@@ -25,7 +25,10 @@
 	@apply text-gray-500 mt-2;
 }
 .content img {
-	@apply rounded-md my-2;
+	@apply my-2;
+}
+.kg-gallery-image img {
+	@apply my-0;
 }
 .content figure {
 	margin-bottom: 1em;
