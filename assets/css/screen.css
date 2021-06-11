@@ -6,11 +6,9 @@
 	margin-top: 2em;
 	margin-bottom: 2em;
 }
-
 .content ul {
 	list-style: disc;
 }
-
 .content h1 {
 	@apply text-3xl;
 }
