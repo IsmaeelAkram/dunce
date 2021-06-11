@@ -26,3 +26,6 @@
 .content img {
 	@apply rounded-md my-2;
 }
+.content figure {
+	margin-bottom: 2em;
+}
