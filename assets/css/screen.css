@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 .content p {
-	margin-bottom: 2em;
+	margin-top: 1em;
+	margin-bottom: 1em;
 }
 .content ul {
 	@apply list-disc;
@@ -27,5 +28,8 @@
 	@apply rounded-md my-2;
 }
 .content figure {
-	margin-bottom: 2em;
+	margin-bottom: 1em;
+}
+.content pre {
+	margin-bottom: 1em;
 }
