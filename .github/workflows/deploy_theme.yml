@@ -8,7 +8,7 @@ on:
         default: 'Ismaeel Akram'
   push:
     branches:
-      - main
+      - master
 jobs:
   deploy:
     runs-on: ubuntu-18.04
