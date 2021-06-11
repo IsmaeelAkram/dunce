@@ -36,3 +36,7 @@
 .content pre {
 	margin-bottom: 1em;
 }
+
+.note {
+	@apply bg-gray-100 text-black px-3 rounded-md border-gray-300 border sm:w-2/3;
+}
